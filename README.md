@@ -79,6 +79,7 @@ SELECT strftime('%Y-%m', Order_Date_Clean) AS month, SUM(Sales) AS total_sales
 FROM superstore_sales
 GROUP BY month
 ORDER BY month;
+```
 
 ### 5. **Furthermore, Visualise Results**
 - Export query results to CSV
@@ -89,5 +90,3 @@ ORDER BY month;
 - ETL process is crucial before analysis.
 - SQL functions like strftime help clean and transform raw data.
 - Asking questions first leads to more meaningful queries.
-
----
