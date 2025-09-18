@@ -28,6 +28,7 @@ I also documented my learning journey, mistakes and insights here: https://mediu
 - **visuals/** → charts and graphs for storytelling  
 - **README.md** → project documentation
 
+```pgsql
 superstore-sql-project/
 │
 ├── data/
@@ -48,7 +49,7 @@ superstore-sql-project/
 │
 ├── README.md                      # Project overview
 
-
+```			
 ---
 
 ## Setup and installation
