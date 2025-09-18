@@ -46,6 +46,10 @@ superstore-sql-project/
 │   └── region_sales.csv
 │
 ├── visuals/
+│   ├── Monthly Sales Trend (2014-2017).png          
+│   ├── Total Sales by Product Category.png
+│   └── Total Sales by Region.png
+│   └── Profit vs. Sales by Month.png
 │
 ├── README.md                      # Project overview
 
