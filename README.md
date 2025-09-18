@@ -65,8 +65,9 @@ superstore-sql-project/
 ### 2. **Explore the Data**
 - Check column names, data types and NULL values
 ```sql
-PRAGMA table_info(superstoer_sales);
+PRAGMA table_info(superstore_sales);
 );
+```
 
 ### 3. **Clean and Transform**
 - Fix inconsistent date formats
