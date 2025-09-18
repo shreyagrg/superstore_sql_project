@@ -86,6 +86,23 @@ ORDER BY month;
 ### 5. **Furthermore, Visualise Results**
 - Export query results to CSV
 - Create simple charts in Excel/Google Sheets/PowerBI for visualisation
+- I used Google sheets:
+Results:
+1. Monthly Sales Trend 
+visuals -> Monthly Sales Trend (2014-2017).png
+Sales show clear seasonality with peaks around holiday months and an overall upward trend over the years.
+
+2. Sales by Category
+visuals -> Total Sales by Category.png
+Technology products generate the highest revenue, followed by Furniture and Office Supplies, indicating category-wise performance priorities.
+
+3. Sales by Region
+visuals -> Total Sales by Region.png
+The West region leads in sales, while the South region lags, suggesting regional market differences in demand.
+
+4. Profit vs. Sales by Month
+visuals -> Profit vs. Sales by Month.png
+High sales months don't always correlate with higher profits, highlighting opportunities to improve cost efficiency and margin management.
 
 
 ## Learnings
