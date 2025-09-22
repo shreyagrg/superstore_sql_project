@@ -55,7 +55,7 @@ I also documented my learning process, challenges and insights in my Medium blog
 ---
 
 ## Setup
-1. Install DB Browser for SQLite
+1. Install DB Browser for SQLite https://sqlitebrowser.org
 2. Create a new database
 ---
 
