@@ -1,22 +1,46 @@
 # Superstore Retail Sales Data Analytics Project
 
+**Author:** Shreya Gurung
+**Project Type:** Data Analytics / Business Insights
+
 ## Project Overview
-This project is my first data analytics project using **SQLite**.  
-The goal was to practice SQL fundamentals and explore the basics of ETL (Extract, Transform, Load), data cleaning and business insights.
 
-While I had learned database schema design and SQL commands in high school and university, this project helped me **go beyond just queries** and practice real-world **ETL (Extract, Transform, Load)**.
+This project analyses Superstore sales data from 2014 to 2017 to extract business insights:
+- Monthly sales trends
+- Profit vs. Sales comparisons
+- Sales by category and region
 
-This repository contains SQL queries and results from analysing the Superstore Sales dataset using SQLite.
+This is my first data analytics project. The goal is to combine **SQL, Python, Visualisation skills** to create a complete data analysis workflow.
 
-I also documented my learning journey, mistakes and insights here: https://medium.com/@btshrek/beyond-sql-the-shift-from-coding-to-thinking-like-an-analyst-7eff25510d50
+---
 
+## Learnings
+
+Initially, I thought **data analytics was about writing SQL queries and visualisations**. Through this project, I learned:
+- Clean data is the key
+- ETL processes(Extract, Transform, Load)** cleaning, transforming and loading data safely
+- Generated visualisations for trends, categories, regions and profit
+- Asking right business-focused questions first, then explore data
+- Python + Jupyter workflow, which is safer and more flexible than altering tables directly in SQL
+
+While I started with SQL, I transitioned into Python and Jupyter Notebook because:
+- Python allows safe, flexible and reproducible data cleaning and transformation 
+- Jupyter Notebook combine code, visuals and narrative in one document - perfect for storytelling
+- I can iterate on data without overwriting the raw dataset
+- Libraries like pandas, matplotlib, seabird make visualisation and analysis faster and more professional
+
+This project helped me learn new commands and technologies like 'strftime' for date grouping, dual-axis charts and Jupyter notebook.
+
+I also documented my learning process, challenges and insights in my Medium blogpost: 
 ---
 
 ## Technologies
 - **SQLite** (DB Browser for SQLite)
-- **SQL** for data extraction, cleaning and transformations
+- **SQL**
 - **strftime, instr, printf** and other SQL functions
 - **CSV** for initial dataset
+- **Python**
+- **Jupyter Notebook**
 
 ---
 
@@ -27,36 +51,10 @@ I also documented my learning journey, mistakes and insights here: https://mediu
 - **results/** → exported results as CSV  
 - **visuals/** → charts and graphs for storytelling  
 - **README.md** → project documentation
-
-```pgsql
-superstore-sql-project/
-│
-├── data/
-│   ├── superstore_sales.csv       # Raw dataset (from Kaggle)
-│   └── superstore_sales.db        # SQLite database file
-│
-├── queries/
-│   ├── exploration.sql            # Schema, basic SELECT, data checks
-│   ├── cleaning.sql               # Date fixes, transformations
-│   ├── insights.sql               # Final business queries
-│
-├── results/
-│   ├── monthly_sales.csv          # Exported query results
-│   ├── category_sales.csv
-│   └── region_sales.csv
-│
-├── visuals/
-│   ├── Monthly Sales Trend (2014-2017).png          
-│   ├── Total Sales by Product Category.png
-│   └── Total Sales by Region.png
-│   └── Profit vs. Sales by Month.png
-│
-├── README.md                      # Project overview
-
-```			
+			
 ---
 
-## Setup and installation
+## Setup
 1. Install DB Browser for SQLite
 2. Create a new database
 ---
@@ -108,8 +106,8 @@ The West region leads in sales, while the South region lags, suggesting regional
 visuals -> Profit vs. Sales by Month.png
 High sales months don't always correlate with higher profits, highlighting opportunities to improve cost efficiency and margin management.
 
+---
 
-## Learnings
-- ETL process is crucial before analysis.
-- SQL functions like strftime help clean and transform raw data.
-- Asking questions first leads to more meaningful queries.
+## Setup Jupyter Notebook
+https://jupyter.org/install
+
