@@ -31,7 +31,7 @@ While I started with SQL, I transitioned into Python and Jupyter Notebook becaus
 
 This project helped me learn new commands and technologies like 'strftime' for date grouping, dual-axis charts and Jupyter notebook.
 
-I also documented my learning process, challenges and insights in my Medium blogpost: 
+I also documented my learning process, challenges and insights in my Medium blogpost: https://medium.com/@btshrek/beyond-sql-the-shift-from-coding-to-thinking-like-an-analyst-7eff25510d50
 ---
 
 ## Technologies
@@ -69,7 +69,6 @@ I also documented my learning process, challenges and insights in my Medium blog
 - Check column names, data types and NULL values
 ```sql
 PRAGMA table_info(superstore_sales);
-);
 ```
 
 ### 3. **Clean and Transform**
